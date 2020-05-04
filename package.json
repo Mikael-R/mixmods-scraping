@@ -1,0 +1,22 @@
+{
+  "name": "mixmods-scraping",
+  "version": "1.0.0",
+  "description": "Faz o scraping dos últimos posts da mixmods",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikael-R/mixmods-scraping.git"
+  },
+  "author": "Mikael Rolim de Aquino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mikael-R/mixmods-scraping/issues"
+  },
+  "homepage": "https://github.com/Mikael-R/mixmods-scraping#readme",
+  "dependencies": {
+    "rss-to-json": "^1.0.5"
+  }
+}
