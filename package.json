@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Mikael-R/mixmods-scraping#readme",
   "dependencies": {
+    "fs": "0.0.1-security",
     "rss-to-json": "^1.0.5"
   }
 }
