@@ -1,7 +1,7 @@
 {
   "name": "mixmods-scraping",
   "version": "1.0.0",
-  "description": "Faz o scraping dos últimos posts da mixmods",
+  "description": "Faz o scraping dos posts da mixmods",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/Mikael-R/mixmods-scraping#readme",
   "dependencies": {
-    "fs": "0.0.1-security",
-    "rss-to-json": "^1.0.5"
+    "rss-to-json": "^1.0.8"
   }
 }
