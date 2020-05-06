@@ -1,7 +1,7 @@
 {
   "name": "mixmods-scraping",
   "version": "1.0.0",
-  "description": "Faz o scraping dos posts da mixmods",
+  "description": "Faz scraping do rss do site mixmods.com.br e mostra informações sobre os últimos posts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Mikael-R/mixmods-scraping#readme",
   "dependencies": {
-    "rss-to-json": "^1.0.8"
+    "rss-parser": "^3.8.0"
   }
 }
