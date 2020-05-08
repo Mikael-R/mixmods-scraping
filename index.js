@@ -20,7 +20,7 @@ ${feed.description}.
 ● Título: ${feed.items[n].title}
 ● Link: ${feed.items[n].link}
 ● Categorias: ${categorias}
-● Publicado: ${String(Number(feed.items[n].pubDate.substr(5,3)) - 1) + ' ' + feed.items[n].pubDate.substr(8,9)}
+● Publicado: ${String(feed.items[n].pubDate.substr(5,3)) + ' ' + feed.items[n].pubDate.substr(8,9)}
 ============================================================================
     `)
   }
